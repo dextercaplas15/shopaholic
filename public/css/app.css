@@ -1,0 +1,355 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Poppins:300);* {
+  font-family: "Poppins";
+  color: #333;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fs-2 {
+  font-size: 16px;
+}
+
+.fs-3 {
+  font-size: 18px;
+}
+
+.fs-4 {
+  font-size: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+.mb-6 {
+  margin-bottom: 60px;
+}
+
+.mb-8 {
+  margin-bottom: 80px;
+}
+
+.mb-10 {
+  margin-bottom: 100px;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.mr-4 {
+  margin-right: 40px;
+}
+
+.mr-6 {
+  margin-right: 60px;
+}
+
+.mr-8 {
+  margin-right: 80px;
+}
+
+.mr-10 {
+  margin-right: 100px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+input {
+  border-radius: 0px !important;
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+.btn {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  border-radius: 0px !important;
+}
+
+::-moz-placeholder {
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+
+::placeholder {
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+
+.clearfix::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.align-center {
+  text-align: center;
+}
+
+.wrap__side-nav {
+  height: 100vh;
+  left: 0;
+  top: 0;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  position: fixed;
+  width: 17%;
+  z-index: 999;
+  overflow: hidden;
+  overflow-y: auto;
+  background: #0F1A34;
+}
+
+.wrap__side-nav * {
+  color: #929292;
+}
+
+.wrap__side-nav ul {
+  padding-left: 20px;
+}
+
+.wrap__side-nav ul li {
+  list-style-type: none;
+}
+
+.wrap__side-nav .heading {
+  font-size: 18px;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+
+.wrap__side-nav a {
+  display: block;
+  color: #929292;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 13px;
+  padding: 2px 0px;
+}
+
+.wrap__side-nav a :hover {
+  color: #f5f5f5 !important;
+}
+
+.wrap__body--dashboard {
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 83%;
+}
+
+.wrap__body--dashboard .wrap__body--inner {
+  padding: 20px;
+}
+
+.wrap__body--dashboard .wrap__body--inner h1 {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 8px;
+  color: #8f8f8f;
+}
+
+.nav.navbar-nav a {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.wrap__dashboard--inner {
+  padding: 20px;
+}
+
+.wrap__products th {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  font-size: 13px;
+  background-color: #dbdbdb;
+}
+
+.wrap__products td {
+  font-size: 12px;
+}
+
+.wrap__products .btn {
+  font-family: "Poppins";
+  font-size: 12px;
+  padding: 3px 5px;
+}
+
+.product-image {
+  border: 1px solid #dbdbdb;
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.wrap__data--cta form {
+  display: inline-block !important;
+}
+
+.dropdown-item {
+  display: block;
+  color: #333;
+  padding: 5px;
+}
+
+.wrap__homecard {
+  background-color: #dbdbdb;
+}
+
+.wrap__homecard .bg-success {
+  background-color: #28a745 !important;
+  color: #f5f5f5;
+}
+
+.wrap__homecard .bg-warning {
+  background-color: #ffc107 !important;
+}
+
+.wrap__homecard .card-title {
+  font-size: 18px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+
+.wrap__homecard .wrap__card-details {
+  padding: 20px;
+}
+
+.wrap__homecard .wrap__card-details * {
+  font-size: 12px;
+}
+
+.wrap__login--card {
+  background-color: #fff;
+  margin-top: 15%;
+  padding: 40px;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+
+.close {
+  color: #333;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+}
+
+.modal-header .close {
+  margin-top: 10px;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+}
+
